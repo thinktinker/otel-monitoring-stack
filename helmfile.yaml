@@ -1,0 +1,7 @@
+repositories:
+- name: open-telemetry
+  url: https://open-telemetry.github.io/opentelemetry-helm-charts
+releases:
+- name: otel
+  namespace: otel
+  chart: open-telemetry/opentelemetry-demo
